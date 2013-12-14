@@ -1,4 +1,3 @@
-
 //--------------- Form1.cs ---------------
 using System;
 using System.Collections.Generic;
@@ -131,15 +130,8 @@ namespace SIS_prakticni_primjer1
 {
     partial class Form1
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -149,12 +141,6 @@ namespace SIS_prakticni_primjer1
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
@@ -222,15 +208,10 @@ namespace SIS_prakticni_primjer1
 
         }
 
-        #endregion
-
         private System.Windows.Forms.Button IzracunajBttn;
         private System.Windows.Forms.Label RezzLbl;
         private System.Windows.Forms.Label NaslovLbl;
         public System.Windows.Forms.Timer timer;
     }
 }
-
-
-
 
